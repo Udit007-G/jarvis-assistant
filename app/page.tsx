@@ -26,7 +26,7 @@ export default function Page() {
               <LockKeyhole aria-hidden="true" />
               Private by design
             </div>
-            <h1 className="max-w-4xl text-6xl font-black leading-[0.92] tracking-[-0.065em] text-[#2a1538] sm:text-8xl lg:text-[clamp(5.5rem,8vw,8.5rem)]">
+            <h1 className="max-w-4xl text-5xl font-bold leading-[0.98] tracking-[-0.045em] text-[#2a1538] sm:text-7xl lg:text-[clamp(4rem,6vw,6.5rem)]">
               Jarvis —<br />
               <span className="text-[#7c3aad]">The first AI Assistant</span>
             </h1>
