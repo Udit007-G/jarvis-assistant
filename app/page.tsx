@@ -30,11 +30,12 @@ export default function Page() {
               Jarvis —<br />
               <span className="text-[#7c3aad]">The first AI Assistant</span>
             </h1>
-            <p className="mt-8 max-w-xl text-lg leading-8 text-[#675d6e] sm:text-xl">
+            <a href="https://github.com/Udit007-G/jarvis-assistant" target="_blank" rel="noreferrer" className="mt-5 inline-flex text-sm font-semibold tracking-wide text-[#7c3aad] transition-colors hover:text-[#5b208d] hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#6d28a9]">Now on GitHub <span aria-hidden="true" className="ml-1">↗</span></a>
+            <p className="mt-6 max-w-xl text-lg leading-8 text-[#675d6e] sm:text-xl">
               Jarvis is a voice-first AI assistant that runs on your own computer — understanding conversations, remembering information locally, answering questions, using tools, and interacting with your computer.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
-              <a href="https://github.com/isair/jarvis" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#6d28a9] px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-purple-200 transition-transform hover:-translate-y-0.5 hover:bg-[#5b208d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#6d28a9]">
+              <a href="https://github.com/Udit007-G/jarvis-assistant" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#6d28a9] px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-purple-200 transition-transform hover:-translate-y-0.5 hover:bg-[#5b208d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#6d28a9]">
                 Explore the project <ArrowUpRight aria-hidden="true" data-icon="inline-end" />
               </a>
               <span className="text-sm text-[#8a7e91]">isair/jarvis</span>
@@ -69,7 +70,7 @@ export default function Page() {
           <div><h2 className="max-w-2xl text-3xl font-semibold leading-tight tracking-[-0.03em] text-[#2a1538] sm:text-5xl">A more private way to explore what an AI assistant can be.</h2><p className="mt-6 max-w-2xl text-lg leading-8 text-[#675d6e]">Jarvis shows how AI assistants can be made more private by keeping conversations and AI processing on the user&apos;s own hardware.</p></div>
         </section>
 
-        <footer className="flex flex-col gap-4 border-t border-[#e8e1ee] py-7 text-sm text-[#8a7e91] sm:flex-row sm:items-center sm:justify-between"><p>Made by Isair and open-source contributors.</p><a href="https://github.com/isair/jarvis" target="_blank" rel="noreferrer" className="font-medium text-[#6d28a9] hover:underline">Read more on GitHub <span aria-hidden="true">↗</span></a></footer>
+        <footer className="flex flex-col gap-4 border-t border-[#e8e1ee] py-7 text-sm text-[#8a7e91] sm:flex-row sm:items-center sm:justify-between"><p>Made by Isair and open-source contributors.</p><a href="https://github.com/Udit007-G/jarvis-assistant" target="_blank" rel="noreferrer" className="font-medium text-[#6d28a9] hover:underline">Read more on GitHub <span aria-hidden="true">↗</span></a></footer>
       </div>
     </main>
   )
