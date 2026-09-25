@@ -30,7 +30,7 @@ export default function Page() {
               Jarvis —<br />
               <span className="text-[#7c3aad]">The first AI Assistant</span>
             </h1>
-            <p className="mt-5 text-sm font-semibold tracking-wide text-[#7c3aad]">Now on GitHub</p>
+            <a href="https://github.com/Udit007-G/jarvis-assistant" target="_blank" rel="noreferrer" className="mt-5 inline-flex text-sm font-semibold tracking-wide text-[#7c3aad] transition-colors hover:text-[#5b208d] hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#6d28a9]">Now on GitHub <span aria-hidden="true" className="ml-1">↗</span></a>
             <p className="mt-6 max-w-xl text-lg leading-8 text-[#675d6e] sm:text-xl">
               Jarvis is a voice-first AI assistant that runs on your own computer — understanding conversations, remembering information locally, answering questions, using tools, and interacting with your computer.
             </p>
