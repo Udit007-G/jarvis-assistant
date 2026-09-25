@@ -1,4 +1,4 @@
-import { ArrowUpRight, Brain, CodeXml, LockKeyhole, Mic, Sparkles, Wrench } from 'lucide-react'
+import { ArrowUpRight, Brain, LockKeyhole, Mic, Sparkles, Wrench } from 'lucide-react'
 
 const capabilities = [
   { icon: Mic, label: 'Understand spoken conversations' },
@@ -18,16 +18,6 @@ export default function Page() {
             </span>
             Jarvis
           </a>
-          <a
-            href="https://github.com/isair/jarvis"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-[#dcd0e6] bg-white px-4 py-2 text-sm font-medium text-[#49235f] transition-colors hover:border-[#9b6ac0] hover:bg-[#f7f1fb] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#6d28a9]"
-          >
-            <CodeXml aria-hidden="true" data-icon="inline-start" />
-            View on GitHub
-            <ArrowUpRight aria-hidden="true" data-icon="inline-end" />
-          </a>
         </header>
 
         <section id="top" className="grid flex-1 items-center gap-14 py-16 lg:grid-cols-[1.05fr_.95fr] lg:gap-24 lg:py-24">
@@ -36,9 +26,9 @@ export default function Page() {
               <LockKeyhole aria-hidden="true" />
               Private by design
             </div>
-            <h1 className="max-w-3xl text-5xl font-semibold leading-[0.98] tracking-[-0.055em] text-[#2a1538] sm:text-7xl lg:text-[clamp(4.5rem,7vw,7.5rem)]">
-              Your voice.<br />
-              <span className="text-[#7c3aad]">Your machine.</span>
+            <h1 className="max-w-4xl text-6xl font-black leading-[0.92] tracking-[-0.065em] text-[#2a1538] sm:text-8xl lg:text-[clamp(5.5rem,8vw,8.5rem)]">
+              Jarvis —<br />
+              <span className="text-[#7c3aad]">The first AI Assistant</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-[#675d6e] sm:text-xl">
               Jarvis is a voice-first AI assistant that runs on your own computer — understanding conversations, remembering information locally, answering questions, using tools, and interacting with your computer.
